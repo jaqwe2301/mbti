@@ -1,0 +1,21 @@
+/* @keyframes : 애니메이션 처리 */
+
+@keyframs fadeIn {
+    from {opacity: 0;}
+    to {opacity:1;}
+}
+
+@keyframs fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1;}
+}
+
+@-webkit-keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
